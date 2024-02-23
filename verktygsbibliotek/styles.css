@@ -1,0 +1,48 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: #F6F6F4;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 14px;
+    max-width: 480px;
+}
+
+main {
+    min-height: 70vh;
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    align-items: center;
+    margin: 12px 0;
+    background: #9B8A80;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 28px 8px;
+}
+
+.nav-position {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.menu-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 155px 0 0 66px;
+    gap: 17px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.tool-card__booking {
+    display: flex;
+    flex-direction: column;
+}

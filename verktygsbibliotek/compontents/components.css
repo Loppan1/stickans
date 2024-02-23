@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap&family=Krub:wght@400;600&display=swap');
+
+/** Compontents Page Styles **/
+.wrapper {
+    max-width: 480px;
+}
+
+.colored-box {
+    background-color: #9B8A80;
+    padding: 10px;
+}
+
+/** Text Styles **/
+
+a {
+    all: unset;
+}
+
+a:hover {
+    color: #e4e4e4;
+}
+
+
+.page-heading {
+    font-family: 'Koh Santepheap';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+}
+
+.section-heading {
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #241C15;
+    margin: 0;
+}
+
+.body-bold {
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #241C15;
+    margin: 0;
+}
+
+.body-regular {
+    font-family: 'Krub';
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+    color: #241C15;
+    margin: 0;
+}
+
+.button-text {
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.modal-heading {
+    font-size: 40px;
+}
+
+.margin-center {
+    margin: auto;
+}
+
+/** Buttons **/
+
+.positive-color {
+    background: #008970;
+}
+
+.negative-color {
+    background: #DD2F09;
+}
+
+.button-large {
+    text-align: center;
+    width: 90%;
+    font-size: 24px;
+    border: 0;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 1px;
+}
+
+.button-small {
+    text-align: center;
+    width: 87px;
+    height: 32px;
+    border: 0;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 5px;
+}
+
+/** Components **/
+.page-header {
+    background: #9B8A80;
+    padding: 14px 8px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.tool-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #9B8A80;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
+    margin: 12px 0;
+    padding: 12px 8px;
+}
+
+.modal-container {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(246, 246, 244, 0.2);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+  }
+
+.modal-content {
+    width: 90%;
+    max-width: 432px;
+    height: 200px;
+    padding: 6px 0 20px 0;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 49px;
+    height: 49px;
+    background: #F6F6F4;
+    opacity: 0.5;
+    border-radius: 5px;
+
+    & .burger-line {
+        margin: 3px auto;
+        height: 4px;
+        width: 30px;
+        border-radius: 20px;
+        background-color: #241C15;
+    }
+
+    & .exit-line {
+        margin: -2px auto;
+        height: 4px;
+        width: 30px;
+        border-radius: 20px;
+        background-color: #241C15;
+    }
+    
+    & .angle-left {
+        transform: rotateY(0deg) rotate(135deg);
+    }
+    
+    & .angle-right {
+        transform: rotateY(0deg) rotate(45deg);
+    }
+}
+
+
+
+
